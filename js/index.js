@@ -128,7 +128,7 @@ const showSuccess = () => {
   const userName = document.getElementById('user-finished');
   userName.innerText = ', ' + state.user.value;
   formEls.style.opacity = 0;
-  title.style.marginTop = 'calc(50vw - ' + height + 'px)';
+  title.style.marginTop = 'calc(50vh - ' + height + 'px)';
 }
 
 
