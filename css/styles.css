@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  background-color: #501678;
+
+}
+
+.title {
+  font-family: system-ui;
+  font-weight: 100;
+  font-size: 50px;
+  color: #7d22ba;
+  margin-top: 50px;
+  transition: margin-top 1500ms ease-in;
+}
+
+.form-container {
+  margin: 0 auto;
+  position: relative;
+  max-width: 500px;
+  width: 80%;
+  max-height: 100vh;
+  height: 500px;
+  opacity: 1;
+  transition: opacity 500ms ease-out;
+}
+
+.signup-form {
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 50px;
+  margin-top: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-weight: 100;
+  font-size: 35px;
+  color: black;
+  background-color: #7d22ba;
+  border-radius: 5px;
+  border: 2px solid #7d22ba;
+}
+
+.first {
+  margin-top: 0;
+}
+
+.form-input::placeholder {
+  color: #333;
+
+}
+
+.toggle-vis {
+  color: #7d22ba;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#submit {
+  background-color: #7d22ba;
+  outline: none;
+  border: none;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: black;
+  font-size: 23px;
+  font-weight: 100;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.error-holder {
+  font-family: system-ui;
+  color: #d26c6c;
+  font-weight: 100;
+  font-size: 12px;
+}

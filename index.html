@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  
+  
+  <link rel="stylesheet" href="css/styles.css">
+
+  
+</head>
+
+  <body>
+    <h1 id="title" class="title">welcome<span id="user-finished"></span></h1>
+    <div class="form-container">
+      <form class="signup-form">
+        <div class="row">
+          <input type="text" class="user form-input" placeholder="username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'username'" />
+          <span class="error-holder" id="user-error"></span>
+        </div>
+        <div class="row">
+          <input type="password" class="pass pass-input form-input" placeholder="password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'password'" />
+          <span class="error-holder" id="pass-error"></span>
+        </div>
+        <div class="row">
+          <input type="password" class="confirm pass-input form-input last" placeholder="confirm" onfocus="this.placeholder = ''" onblur="this.placeholder = 'confirm'" />
+          <span class="error-holder" id="confirm-error"></span>
+        </div>
+        <div class="row">
+          <button class="toggle-vis">show password</button>
+        </div>
+      </form>
+      <button id="submit">sign up</button>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+
+</html>
